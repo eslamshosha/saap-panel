@@ -626,18 +626,20 @@ header {
   margin: 0 auto;
   padding: 0 20px;
 }
+@media (max-width: 991px) {
+  .features-box{
+    background-size: cover;
+  }
+  .features-box:hover{
+    background-size: cover;
+  }
+}
 @media (max-width: 767px) {
   .features {
     margin-top: 40px;
   }
   .features-cont {
     grid-template-columns: repeat(1, 1fr);
-  }
-  .features-box{
-    background-size: cover;
-  }
-  .features-box:hover{
-    background-size: cover;
   }
 }
 /*                      features-section                      */
